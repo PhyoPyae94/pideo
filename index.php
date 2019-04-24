@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="./includes/css/style.css">
 </head>
 <body>
-    <div class="pageContainer">
-        <div class="mastHeadContainer">
+    <div id="pageContainer">
+        <div id="mastHeadContainer">
             hello
         </div>
-        <div class="sideNavContainer">
+        <div id="sideNavContainer">
 
         </div>
-        <div class="mainSectionContainer">
-        
+        <div id="mainSectionContainer">
+            <div id="mainContentContainer">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque saepe nulla unde, earum autem eos aut minima incidunt obcaecati quaerat in, cupiditate aliquam sint rerum, explicabo sapiente maxime accusamus minus.
+            </div>
         </div>
     </div>
 </body>

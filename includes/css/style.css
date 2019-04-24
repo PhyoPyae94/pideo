@@ -1,3 +1,42 @@
-* {
-    color: red;
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#pageContainer {
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+}
+#mastHeadContainer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #8a8a8a;
+    background: #684343;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+#sideNavContainer {
+    width: 240px;
+    background: #bb4b4b;
+    padding-top: 50px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+#mainSectionContainer {
+    padding-top: 56px;
+    display: flex;
+}
+#mainContentContainer {
+    padding: 10px 30px;
 }
