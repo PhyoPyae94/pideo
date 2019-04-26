@@ -5,8 +5,11 @@ require('includes/classes/videoDetailsFormProvider.php');
 
 <div class="column">
    <?php
-        $formProvider = new videoDetailsFormProvider();
+        $formProvider = new videoDetailsFormProvider($con);
         echo $formProvider->createUploadForm();
+
+        
+
     ?>
 </div>
 
